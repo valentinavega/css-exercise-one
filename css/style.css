@@ -15,11 +15,13 @@ section {
   width: 60%;
 }
 
+/* fixed missing colon*/
 h1 {
   font-family: sans-serif;
   font-size: 2em;
 }
 
+/* fixed missing colon*/
 .example, h3 {
   padding-top: 30px;
   text-align: center;
@@ -29,9 +31,24 @@ h3 {
   font-size: 1.3em;
 }
 
+/* fixed missing colon*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* new element changes */
+
+.element-one {
+  background-color: blue;
+}
+
+.element-two {
+  background-color: blue;
+}
+
+.element-three {
+  background-color: blue;
 }
